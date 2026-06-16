@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<meta name="description" content="Harsh Kumar — Computer Science Engineering student at GNDEC Ludhiana. Python, ML, OpenCV, Streamlit developer. Open to internships."/>
+<meta name="keywords" content="Harsh Kumar, CS student, machine learning, Python, OpenCV, Streamlit, GNDEC, internship"/>
+<meta name="theme-color" content="#1A1A1A"/>
+<title>Harsh Kumar | CS Engineer & ML Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet"href="style.css"/>
+<title>Harsh Kumar Portfolio</title>
+</head>
+<body>
+
+<canvas id="particles-canvas"></canvas>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <div class="nav-brand"></div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certs</a>
+      <a href="#contact" class="nav-cta">Contact me</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="wrap">
+    <div class="hero-inner">
+      <div>
+        
+        <h1 class="reveal reveal-delay-1">
+          <span class="name">Harsh</span><br>
+          <span class="highlight">Kumar</span>
+        </h1>
+        <p class="hero-title reveal reveal-delay-1">Computer Science Student &amp; Aspiring Software Developer</p>
+        <p class="hero-desc reveal reveal-delay-2">
+          BTech CSE student at GNDEC Ludhiana, building real-world projects in
+          Machine Learning, Computer Vision, and Data Analysis. Passionate about turning
+          data into tools that people actually use.
+        </p>
+        <div class="hero-actions reveal reveal-delay-2">
+          <a href="#projects" class="btn-green">View Projects →</a>
+          
+        </div>
+        <div class="hero-stats reveal reveal-delay-3">
+          <div class="stat"><span class="stat-num">2+</span><span class="stat-label">Projects Built</span></div>
+          <div class="stat"><span class="stat-num">3</span><span class="stat-label">Certifications</span></div>
+          <div class="stat"><span class="stat-num">4</span><span class="stat-label">Languages</span></div>
+          <div class="stat"><span class="stat-num">'27</span><span class="stat-label">Graduation</span></div>
+        </div>
+      </div>
+      <div class="hero-avatar reveal reveal-delay-1"><img src="harsh.jpeg" alt="Harsh Kumar"></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="wrap">
+    <p class="section-tag reveal">Who I Am</p>
+    <h2 class="reveal">About Me</h2>
+    <p class="section-desc reveal">A builder at heart — I turn CS theory into working software.</p>
+    <div class="about-grid">
+      <div class="about-card reveal">
+        <div class="about-card-icon">🎓</div>
+        <h3>Education</h3>
+        <p>BTech in Computer Science Engineering at Guru Nanak Dev Engineering College, Ludhiana. Expected graduation May 2027.</p>
+      </div>
+      <div class="about-card reveal reveal-delay-1">
+        <div class="about-card-icon">🧠</div>
+        <h3>Technical Interests</h3>
+        <p>Machine Learning, Computer Vision, NLP, and building useful data-driven web apps with Python and Streamlit.</p>
+      </div>
+      <div class="about-card reveal reveal-delay-2">
+        <div class="about-card-icon">🚀</div>
+        <h3>Career Goal</h3>
+        <p>Secure a software development or ML internship where I can apply my skills on real-world problems and grow fast as an engineer.</p>
+      </div>
+      <div class="about-card reveal reveal-delay-3">
+        <div class="about-card-icon">📍</div>
+        <h3>Location</h3>
+        <p>Based in Ludhiana, Punjab, India.</p>
+      </div>
+      <div class="about-full reveal">
+        <p>
+          I'm <strong>Harsh Kumar</strong>, Computer Science Engineering student with hands-on experience in
+          <strong>Python, OpenCV, NumPy, Pandas, and Streamlit</strong>. I've built real-world projects in Computer Vision and
+          Machine Learning — from an object detection system that processes live video streams, to a Streamlit web app that
+          analyses skill gaps across student batches.
+          My foundation is strong in <strong>Data Structures, Algorithms, OOP, DBMS, and Operating Systems</strong>.
+          I'm actively seeking internship opportunities in software development and machine learning to apply and grow my skills.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="wrap">
+    <p class="section-tag reveal">Toolkit</p>
+    <h2 class="reveal">Skills</h2>
+    <p class="section-desc reveal">Technologies and concepts I work with, rated by current depth.</p>
+    <div class="skills-outer">
+      <div class="skill-group reveal">
+        <div class="skill-group-header">
+          <span class="skill-group-icon">💻</span>
+          <h3>Programming Languages</h3>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">Python</span><span class="skill-pct">85%</span></div>
+          <div class="bar"><div class="bar-fill" style="--w:.85"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">C++</span><span class="skill-pct">78%</span></div>
+          <div class="bar"><div class="bar-fill" style="--w:.78"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">HTML / CSS</span><span class="skill-pct">70%</span></div>
+          <div class="bar"><div class="bar-fill" style="--w:.70"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-group reveal reveal-delay-1">
+        <div class="skill-group-header">
+          <span class="skill-group-icon">🤖</span>
+          <h3>AI &amp; Machine Learning</h3>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">OpenCV</span><span class="skill-pct">82%</span></div>
+          <div class="bar"><div class="bar-fill" style="--w:.82"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">NumPy / Pandas</span><span class="skill-pct">78%</span></div>
+          <div class="bar"><div class="bar-fill" style="--w:.78"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">Streamlit</span><span class="skill-pct">80%</span></div>
+          <div class="bar"><div class="bar-fill" style="--w:.80"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <div class="skill-group-header">
+          <span class="skill-group-icon">🔧</span>
+          <h3>Developer Tools</h3>
+        </div>
+        <div class="chip-row">
+          <span class="chip">Git</span>
+          <span class="chip">VS Code</span>
+          <span class="chip">Jupyter Notebook</span>
+          <span class="chip">Overleaf / LaTeX</span>
+          <span class="chip">Linux</span>
+        </div>
+      </div>
+
+      <div class="skill-group reveal reveal-delay-1">
+        <div class="skill-group-header">
+          <span class="skill-group-icon">📚</span>
+          <h3>Core CS Concepts</h3>
+        </div>
+        <div class="chip-row">
+          <span class="chip">Data Structures &amp; Algorithms</span>
+          <span class="chip">OOP</span>
+          <span class="chip">DBMS</span>
+          <span class="chip">Operating Systems</span>
+          <span class="chip">Computer Networks</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="wrap">
+    <p class="section-tag reveal">What I've Built</p>
+    <h2 class="reveal">Projects</h2>
+    <p class="section-desc reveal">Real-world applications built with Python, ML, and data tools.</p>
+    <div class="projects-grid">
+
+      <div class="project-card featured reveal">
+        <div>
+          <div class="project-number">01</div>
+          <div class="project-title">Object Detection System</div>
+          <div class="tech-stack" style="margin:10px 0 14px">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">OpenCV</span>
+            <span class="tech-tag">NumPy</span>
+            <span class="tech-tag">Computer Vision</span>
+          </div>
+        </div>
+        <div>
+          <div class="project-bullet"><p>Engineered a real-time object detection system capable of processing live video streams with low latency.</p></div>
+          <div class="project-bullet"><p>Improved detection accuracy by applying preprocessing techniques including image thresholding and noise reduction.</p></div>
+          <div class="project-bullet"><p>Optimised model parameters to reduce false positives across varied lighting and background conditions.</p></div>
+          <div class="project-links" style="margin-top:20px">
+           
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card featured reveal reveal-delay-1">
+        <div>
+          <div class="project-number">02</div>
+          <div class="project-title">Skill Gap Detection System</div>
+          <div class="tech-stack" style="margin:10px 0 14px">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Streamlit</span>
+            <span class="tech-tag">Pandas</span>
+            <span class="tech-tag">Data Analysis</span>
+          </div>
+        </div>
+        <div>
+          <div class="project-bullet"><p>Architected a web-based application using Streamlit to analyse performance data of students across multiple batches.</p></div>
+          <div class="project-bullet"><p>Designed an interactive dashboard with real-time skill gap visualisation, significantly reducing manual analysis time.</p></div>
+          <div class="project-bullet"><p>Delivered personalised improvement recommendations covering multiple skill categories based on performance metrics.</p></div>
+          <div class="project-links" style="margin-top:20px">
+           
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="wrap">
+    <p class="section-tag reveal">Academic Background</p>
+    <h2 class="reveal">Education</h2>
+    <p class="section-desc reveal">My academic journey so far.</p>
+    <div class="edu-timeline">
+
+      <div class="edu-item reveal">
+        <div class="edu-dot-col">
+          <div class="edu-dot"></div>
+          <div class="edu-line"></div>
+        </div>
+        <div>
+          <div class="edu-badge">Current · Aug 2023 – May 2027</div>
+          <h3>Bachelor of Technology — Computer Science Engineering</h3>
+          <p class="edu-sub">Guru Nanak Dev Engineering College, Ludhiana, Punjab</p>
+          <p class="edu-meta">Key courses: Data Structures, ML, NLP, DBMS, OS, Computer Networks, Computer Graphics</p>
+        </div>
+      </div>
+
+      <div class="edu-item reveal reveal-delay-1">
+        <div class="edu-dot-col">
+          <div class="edu-dot"></div>
+        </div>
+        <div>
+          <div class="edu-badge">2023</div>
+          <h3>Senior Secondary — 12th Grade</h3>
+          <p class="edu-sub">BSEH Board</p>
+        
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <div class="wrap">
+    <p class="section-tag reveal">Credentials</p>
+    <h2 class="reveal">Certifications</h2>
+    <p class="section-desc reveal">Industry-recognised courses completed alongside my degree.</p>
+    <div class="certs-grid">
+
+      <div class="cert-card reveal">
+        <div class="cert-issuer">ThinkNEXT Technologies</div>
+        <h3>AI / ML Training</h3>
+        <p>Machine Learning and Artificial Intelligence — practical training covering supervised learning, model building, and Python-based implementations.</p>
+        <p class="cert-year">2024</p>
+        <a href="https://drive.google.com/file/d/1KkBs17aqgofLibsBpBC3Jm0krrLVxDT6/view?usp=drivesdk" class="btn-cert">View Certificate ↗</a>
+      </div>
+
+      <div class="cert-card reveal reveal-delay-1">
+        <div class="cert-issuer">Itronix Solutions</div>
+        <h3>C++ Programming</h3>
+        <p>Programming Fundamentals in C++ — core concepts, OOP principles, memory management, and algorithmic thinking.</p>
+        <p class="cert-year">2023</p>
+        <a href="https://drive.google.com/file/d/1m3FkCA6Ru9et8pQ-ZcuzW7xv1_sZczVW/view?usp=drivesdk" class="btn-cert">View Certificate ↗</a>
+      </div>
+
+      <div class="cert-card reveal reveal-delay-2">
+        <div class="cert-issuer">Infosys Springboard</div>
+        <h3>Python Programming</h3>
+        <p>Python Programming Essentials — scripting, data manipulation, and foundational skills for building Python applications.</p>
+        <p class="cert-year">2023</p>
+        <a href="https://drive.google.com/file/d/1uFv8VBNVua9nlUro6bgzCr1-USs0N3dH/view?usp=drivesdk" class="btn-cert">View Certificate ↗</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="wrap">
+    <p class="section-tag reveal">Experience</p>
+    <h2 class="reveal">What I've Done</h2>
+    <p class="section-desc reveal">Hands-on experience through academic projects, training, and coursework.</p>
+    <div class="exp-grid">
+
+      <div class="exp-card reveal">
+        <div class="exp-badge">Project</div>
+        <h3>Computer Vision Developer</h3>
+        <p class="exp-org">Self-Directed — Object Detection System · 2024</p>
+        <p>Designed and implemented a full real-time object detection pipeline using Python and OpenCV. Handled preprocessing, model optimisation, and accuracy tuning end to end.</p>
+      </div>
+
+      <div class="exp-card reveal reveal-delay-1">
+        <div class="exp-badge">Project</div>
+        <h3>Full-Stack Data App Developer</h3>
+        <p class="exp-org">Self-Directed — Skill Gap Analysis · 2024</p>
+        <p>Built a complete web application with Streamlit and Pandas from design to deployment. Created interactive visualisations and a personalised recommendation engine for students.</p>
+      </div>
+
+      <div class="exp-card reveal">
+        <div class="exp-badge">Training</div>
+        <h3>AI / ML Trainee</h3>
+        <p class="exp-org">ThinkNEXT Technologies · 2024</p>
+        <p>Completed structured AI and Machine Learning training, gaining practical exposure to supervised learning, Python ML libraries, and applied problem-solving.</p>
+      </div>
+
+      <div class="exp-card reveal reveal-delay-1">
+        <div class="exp-badge">Academic</div>
+        <h3>CSE Student — GNDEC</h3>
+        <p class="exp-org">Guru Nanak Dev Engineering College · Aug 2023 – Present</p>
+        <p>Active learner across core CS courses: Data Structures, NLP, Computer Graphics, Operating Systems, DBMS — consistently applying concepts through projects.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="wrap">
+    <p class="section-tag reveal">Get In Touch</p>
+    <h2 class="reveal">Contact Me</h2>
+    
+    <div class="contact-grid">
+
+      <div class="contact-form reveal">
+        <div class="form-row">
+          <div class="field">
+            <label>Your Name</label>
+            <input class="input" type="text" placeholder="Jane Smith"/>
+          </div>
+          <div class="field">
+            <label>Your Email</label>
+            <input class="input" type="email" placeholder="jane@company.com"/>
+          </div>
+        </div>
+        <div class="field">
+          <label>Subject</label>
+          <input class="input" type="text" placeholder="Internship Opportunity"/>
+        </div>
+        <div class="field">
+          <label>Message</label>
+          <textarea class="textarea" placeholder="Tell me about the role or project..."></textarea>
+        </div>
+        <div class="form-footer">
+          <button class="btn-green" type="button">Send Message →</button>
+        </div>
+      </div>
+
+      <div class="contact-info reveal reveal-delay-1">
+        <h3>Find Me Online</h3>
+        <a class="contact-link" href="https://github.com/HarshSharma2005" target="_blank">
+          <div class="contact-link-icon">🐙</div>
+          <div class="contact-link-info">
+            <h4>GitHub</h4>
+            <span>github.com/HarshSharma2005</span>
+          </div>
+        </a>
+        <a class="contact-link" href="https://linkedin.com/in/harsh-sharma" target="_blank">
+          <div class="contact-link-icon">💼</div>
+          <div class="contact-link-info">
+            <h4>LinkedIn</h4>
+            <span>linkedin.com/in/Harsh Sharma</span>
+          </div>
+        </a>
+        <a class="contact-link" href="mailto:hkcse.busines@gmail.com">
+          <div class="contact-link-icon">✉️</div>
+          <div class="contact-link-info">
+            <h4>Email</h4>
+            <span>hkcse.busines@gmail.com</span>
+          </div>
+        </a>
+        
+        <div class="location-pill">
+          <div style="font-size:1.3rem">📍</div>
+          <div>
+            <p>Ludhiana, Punjab, India</p>
+            <span>Available for remote &amp; on-site roles</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap footer-inner">
+    <p>© <span id="yr"></span> Harsh Kumar · BTech CSE, GNDEC Ludhiana</p>
+    
+    <button class="back-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">↑</button>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
