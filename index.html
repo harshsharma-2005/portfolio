@@ -366,36 +366,35 @@
 <div class="divider"></div>
 
 <!-- CONTACT -->
-<section id="contact">
-  <div class="wrap">
-    <p class="section-tag reveal">Get In Touch</p>
-    <h2 class="reveal">Contact Me</h2>
-    
-    <div class="contact-grid">
+<div class="contact-form reveal">
+  <div class="form-row">
+    <div class="field">
+      <label>Your Name</label>
+      <input id="name" class="input" type="text" placeholder="Jane Smith"/>
+    </div>
 
-      <div class="contact-form reveal">
-        <div class="form-row">
-          <div class="field">
-            <label>Your Name</label>
-            <input class="input" type="text" placeholder="Jane Smith"/>
-          </div>
-          <div class="field">
-            <label>Your Email</label>
-            <input class="input" type="email" placeholder="jane@company.com"/>
-          </div>
-        </div>
-        <div class="field">
-          <label>Subject</label>
-          <input class="input" type="text" placeholder="Internship Opportunity"/>
-        </div>
-        <div class="field">
-          <label>Message</label>
-          <textarea class="textarea" placeholder="Tell me about the role or project..."></textarea>
-        </div>
-        <div class="form-footer">
-          <button class="btn-green" type="button">Send Message →</button>
-        </div>
-      </div>
+    <div class="field">
+      <label>Your Email</label>
+      <input id="email" class="input" type="email" placeholder="jane@company.com"/>
+    </div>
+  </div>
+
+  <div class="field">
+    <label>Subject</label>
+    <input id="subject" class="input" type="text" placeholder="Internship Opportunity"/>
+  </div>
+
+  <div class="field">
+    <label>Message</label>
+    <textarea id="message" class="textarea" placeholder="Tell me about the role or project..."></textarea>
+  </div>
+
+  <div class="form-footer">
+    <button id="sendBtn" class="btn-green" type="button">
+      Send Message →
+    </button>
+  </div>
+</div>
 
       <div class="contact-info reveal reveal-delay-1">
         <h3>Find Me Online</h3>
@@ -441,7 +440,7 @@
     <button class="back-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">↑</button>
   </div>
 </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
