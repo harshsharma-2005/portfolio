@@ -57,3 +57,31 @@ document.getElementById('hamburger').addEventListener('click',()=>{
   if(links.style.display==='flex'){ links.style.display=''; }
   else { links.style.cssText='display:flex;flex-direction:column;position:absolute;top:68px;left:0;right:0;background:#1A1A1A;padding:16px 24px 24px;border-bottom:1px solid rgba(255,255,255,.08);z-index:200'; }
 });
+emailjs.init("aRbeYx42z6PrCaSyI");
+
+document.getElementById("sendBtn").addEventListener("click", function () {
+
+    const params = {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        title: document.getElementById("subject").value,
+        message: document.getElementById("message").value
+    };
+
+    emailjs.send(
+        "service_e857pec",
+        "template_52zi9i6",
+        params
+    )
+    .then(function () {
+        alert("Message Sent Successfully!");
+    })
+    .catch(function(error) {
+    console.log(error);
+    alert(
+        "STATUS: " + error.status +
+        "\nTEXT: " + error.text
+    );
+});
+
+});
